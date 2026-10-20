@@ -1,0 +1,22 @@
+{
+  "name": "bulk-image-generation-marketplace",
+  "owner": {
+    "name": "Christian Pasín Rey"
+  },
+  "plugins": [
+    {
+      "name": "bulk-image-generation",
+      "source": ".",
+      "description": "Orchestrated bulk AI image generation via Pollinations.ai with live HTML dashboard, seed-based recovery, and optional user API key. Claude Code asks for (or composes) a professional prompt, asks whether to use the public API or your own key (setup via a local web form), runs a Python helper that hits Pollinations sequentially, saves images to disk, writes a self-refreshing dashboard.html you open via file://, and emits JSON-lines events to stdout so the Monitor tool can stream progress. Includes --recover and --from run.json modes for re-fetching previously generated images from the server cache without burning new generations.",
+      "version": "0.2.0",
+      "category": "productivity",
+      "tags": [
+        "image-generation",
+        "pollinations",
+        "bulk",
+        "demo-assets",
+        "seeders"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bulk-image-generation",
+  "description": "Claude Code skill for orchestrated bulk AI image generation via Pollinations.ai, with live HTML dashboard, seed-based recovery, and optional authenticated API key.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Christian Pasín Rey"
+  },
+  "homepage": "https://github.com/christianpasinrey/bulk-image-generation-skill",
+  "repository": "https://github.com/christianpasinrey/bulk-image-generation-skill",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "image-generation",
+    "pollinations",
+    "bulk",
+    "ai-images",
+    "seeders",
+    "demo-data"
+  ]
+}
